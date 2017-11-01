@@ -138,7 +138,7 @@ class TestStrategy(bt.Strategy):
 		
 	def next(self):
 		
-		#self.log('current portfolio value is %.2f' % self.stats.broker.value[0])
+		#####self.log('current portfolio value is %.2f' % self.stats.broker.value[0])
 		#list.append(self.stats.broker.value[0])
 		N = len(self.datas)
 
